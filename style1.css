@@ -1,0 +1,192 @@
+body {
+
+    background-color: rgb(248, 235, 212);
+
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    max-width: 2000px;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+
+}
+
+.FotoPerfil {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 45%;
+}
+
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+    animation: heartBeat ; 
+   animation-duration: 2s;
+
+}
+
+h2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    
+
+}
+
+p {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+
+}
+
+i {
+    font-size: 200%;
+    padding: 10px;
+}
+
+
+.iconos {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.encabezado {
+    background-color: rgb(248, 235, 212);
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0%;
+
+}
+
+.videos {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+  
+
+}
+
+iframe {
+
+    width: 26vw;
+    height: 14vw;
+    padding: 1vw;
+
+}
+
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+
+.trabajos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.educacion {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+ol {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+h5 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+    padding-top: 20%;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+h4 {
+    padding: 1%;
+}
+
+
+.fa-envelope {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+
+.fa-phone {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+
+.fa-instagram {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+
+@media only screen and (max-width: 1800px) {
+    .videos {
+        display: flex;
+        flex-direction: column;
+    }
+        
+}
+@media only screen and (max-width: 1200px) {
+
+    .trabajos{
+        display:flex;
+        flex-direction: column;
+        
+
+    }  
+   
+    
+
+    
+}
